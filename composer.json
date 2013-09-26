@@ -1,0 +1,23 @@
+{
+    "name": "raconteur/framework",
+    "description": "Framework for webdoc and interactive experiences",
+    "authors": [
+        {
+            "name": "Folklore",
+            "email": "info@atelierfolklore.ca"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Raconteur\\Framework": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
